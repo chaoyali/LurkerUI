@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -27,7 +28,7 @@
 
   			<div class="col-md-6 streaming-box adjust-box-left">
   				<div class="embedVideo box-style">
-			    	<iframe src="https://player.twitch.tv/?channel=queene"></iframe>
+			    	<iframe src="https://player.twitch.tv/?channel=raegu"></iframe>
 			    	
 			    </div>
 			  
@@ -63,9 +64,42 @@
 									<button class="cam-button" id="cam11">11</button>
 									<button class="cam-button" id="cam12">12</button>
 				    		</div>
+
+				    		<div class="obj" id="obj-back-button">
+				    			<i class="fa fa-times" aria-hidden="true"></i>
+
+				    		</div>
+
+				    		<div class="obj text-discription" id="obj-notes">Choose an item, making noises to distract the ghost.</div>
 			    			<!-- <div class="obj hover-shadow" id="obj-1"></div> -->
-			    			<div class="obj" id="obj-2"></div>
-			    			<div class="obj" id="obj-3"></div>
+			    			<div class="obj" id="obj-book">
+			    				<img src="images/book.png" alt="">
+			    			</div>
+			    			<div class="obj" id="obj-book-control">
+			    				<div class="text-discription">Drop a book</div>
+			    				<div class="progress obj-progress">
+  									<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+    									<span class="sr-only">45% Complete</span>
+									  </div>
+									</div>
+									<div class="button-purple text-discription button-small">
+										Vote
+									</div>
+			    			</div>
+			    			<div class="obj" id="obj-toilet">
+			    				<img src="images/toilet.png" alt="">
+			    			</div>
+			    			<div class="obj" id="obj-toilet-control">
+			    				<div class="text-discription">Flush a toilet</div>
+			    				<div class="progress obj-progress">
+  									<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+    									<span class="sr-only">50% Complete</span>
+									  </div>
+									</div>
+									<div class="button-purple text-discription button-small">
+										Vote
+									</div>
+			    			</div>
 			    			<div class="" id="div2"><img src="images/plan.png" /></div>
 				    	</div>
 				    </div>

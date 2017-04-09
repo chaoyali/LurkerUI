@@ -9,23 +9,74 @@ $(document).ready(function() {
 			$('#footage-group').fadeOut(300);
 			$("#div2").removeClass("rotateback");
 			$("#div2").addClass("rotate");
-			// $('#obj-1').delay(600).fadeIn({queue: false, duration: 300});
-			// $('#obj-1').delay(600).animate({ top: "+=.5vw" }, 'slow');
-			// $('#obj-1').delay(600).animate({ top: '+=.5vw'}, 100);
 			$('#obj-1').delay(600).fadeIn(300);
-			$('#obj-2').delay(600).fadeIn(300);
-			$('#obj-3').delay(600).fadeIn(300);
+			$('#obj-notes').delay(600).fadeIn(300);
+			$('#obj-book').delay(600).fadeIn(300);
+			$('#obj-book-control').delay(600).fadeIn(300);
+			$('#obj-toilet').delay(600).fadeIn(300);
+			$('#obj-toilet-control').delay(600).fadeIn(300);
+			$('#obj-back-button').delay(600).fadeIn(300);
 		}
-		else {
-
+		else{
 			$('#obj-1').fadeOut(300);
-			$('#obj-2').fadeOut(300);
-			$('#obj-3').fadeOut(300);
+			$('#obj-notes').fadeOut(300);
+			$('#obj-book').fadeOut(300);
+			$('#obj-book-control').fadeOut(300);
+			$('#obj-toilet').fadeOut(300);
+			$('#obj-toilet-control').fadeOut(300);
+			$('#obj-back-button').fadeOut(300);
 			$('#button-group').delay(600).fadeIn(400);
 			$('#footage-group').delay(600).fadeIn(400);
 			$("#div2").addClass("rotateback");
 			$("#div2").removeClass("rotate");
 		}
+
+
+	});
+
+	$("#obj-back-button").click(function(){
+		$('#obj-1').fadeOut(300);
+		$('#obj-notes').fadeOut(300);
+		$('#obj-book').fadeOut(300);
+		$('#obj-book-control').fadeOut(300);
+		$('#obj-toilet').fadeOut(300);
+		$('#obj-toilet-control').fadeOut(300);
+		$('#obj-back-button').fadeOut(300);
+		$('#button-group').delay(600).fadeIn(400);
+		$('#footage-group').delay(600).fadeIn(400);
+		$("#div2").addClass("rotateback");
+		$("#div2").removeClass("rotate");
+
+	});
+
+	$("#obj-toilet-control .button-small").click(function(){
+		$("#obj-toilet-control .progress-bar").css("width", "100%");
+		$("#obj-toilet-control .progress-bar").removeClass("progress-bar-striped");
+		$("#obj-toilet-control .progress-bar").removeClass("active");
+		$("#obj-toilet-control .progress-bar").addClass("progress-bar-success");
+
+
+		//button
+		$("#obj-toilet-control .button-small").removeClass("button-purple");
+		$("#obj-toilet-control .button-small").addClass("button-gray");
+		$("#obj-toilet-control .button-small").addClass("button-notallowed");
+		$("#obj-toilet-control .button-small").html("<i class=\"fa fa-check-circle\" aria-hidden=\"true\"></i> Voted");
+
+		$("#obj-book-control .button-small").removeClass("button-purple");
+		$("#obj-book-control .button-small").addClass("button-gray", "button-notallowed");
+	});
+
+	$("#obj-book-control .button-small").click(function(){
+		$("#obj-book-control .progress-bar").css("width", "50%");
+
+
+		//button
+		$("#obj-book-control .button-small").removeClass("button-purple");
+		$("#obj-book-control .button-small").addClass("button-gray");
+		$("#obj-book-control .button-small").html("<i class=\"fa fa-check-circle\" aria-hidden=\"true\"></i> Voted");
+
+		$("#obj-toilet-control .button-small").removeClass("button-purple");
+		$("#obj-toilet-control .button-small").addClass("button-gray", "button-notallowed");
 	});
 
 	
@@ -286,3 +337,5 @@ function sendAlert(room_num) {
 function button_disappear() {
 	$('#button-group').fadeOut();
 }
+
+
