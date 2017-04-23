@@ -450,6 +450,64 @@ nav {
 	margin-top: 3px !important;
 }
 
+.emergency-event {
+	margin-top: 2vw;
+	width: 100%;
+	height: 200px;
+	max-width: 300px;
+	background-color: #221F2A;
+	vertical-align: top;
+}
+
+.emergency-event hr{
+	border-color: rgba(151, 151, 151, 0.2);
+	margin: auto;
+}
+
+.event-header-text {
+	font-size: 14px;
+	color: #A7A7A7;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  display: inline-block;
+}
+
+.event-time-text {
+	font-size: 10px;
+	color: #A7A7A7;
+  padding-top: 14px;
+  /*padding-bottom: 6px;*/
+  padding-right: 12px;
+  float: right;
+  display: inline-block;
+}
+
+.body-text {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	padding-top: 38px;
+}
+
+.button-noise {
+	margin-top: 45px;
+	font-size: 12px;
+	width: 80px;
+}
+
+.emergency-button-group {
+	text-align: center;
+}
+
+.emergency-light {
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	background-color: #E03838;
+	display: inline-block;
+}
+
 
 
 
