@@ -17,6 +17,12 @@ $(document).ready(function() {
 	  });
 	})
 
+	$('#get-name button').click(function() {
+    Twitch.api({method: 'user'}, function(error, user) {
+      $('#get-name input').val(user.display_name);
+    });
+  })
+
 
 	$(".button-noise").click(function(){
 		if($('#footage-group').is(":visible")) {
