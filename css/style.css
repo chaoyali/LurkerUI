@@ -22,7 +22,7 @@ html {
 nav {
 	/*width: 1300px;*/
 	height: 50px;
-	
+
 	border: solid 2px #000000;
 }
 
@@ -38,7 +38,7 @@ nav {
     position:relative;
     padding-bottom:50.0%;
     height:0;
-    
+
     /*display: inline-table*/
     /*display: block;*/
  }
@@ -89,7 +89,7 @@ nav {
 	position: relative;
 	/*display: inline-table;*/
 	height: 40px;
-	
+
 }
 
 .row {
@@ -160,7 +160,7 @@ nav {
 	padding-bottom: 35%;
 	text-align: center;
 	margin: auto;
-	
+
 }
 
 #footage {
@@ -235,7 +235,7 @@ nav {
 }
 
 #div1 {
-	
+
 }
 
 .rotate {
@@ -252,12 +252,12 @@ nav {
 }
 
 /*@keyframes spin { 100% { transform: rotateZ(20deg) rotateY(-50deg) rotateX(30deg); } }*/
-@keyframes spin { 
-	100% { 
+@keyframes spin {
+	100% {
 		left: -14vw;
 		transform: scale(1.5) rotateZ(28deg) rotateY(-40deg) rotateX(60deg);
 		/*transform: rotateZ(45deg) rotateY(-65deg) rotateX(40deg); */
-	} 
+	}
 	/*25%  {left: -20px;}*/
   0% {
   	transform: scale(1.0);
@@ -265,12 +265,12 @@ nav {
   }
 }
 
-@keyframes spinback { 
-	0% { 
+@keyframes spinback {
+	0% {
 		left: -14vw;
 		transform: scale(1.5) rotateZ(28deg) rotateY(-40deg) rotateX(60deg);
 		/*transform: rotateZ(45deg) rotateY(-65deg) rotateX(40deg); */
-	} 
+	}
 	/*25%  {left: -20px;}*/
   100% {
   	transform: scale(1.0);
@@ -378,6 +378,8 @@ nav {
 /*		width: 25px;
 	height: 45px;*/
 }
+
+
 
 #cam1 {
 	left: 0.5vw;
@@ -508,6 +510,26 @@ nav {
 	display: inline-block;
 }
 
+/**
+ * Changes the colors of the buttons when you click them
+ **/
+button.selected{
+  background-color: #42EA08;
+	color: #fff;
+}
+
+button:focus{
+	display: none;
+}
+
+button:active{
+	opacity: .8;
+}
+
+button{
+	background-color: #fff;
+	cursor: pointer;
+}
 
 
 
@@ -774,23 +796,7 @@ nav {
 }
 
 
-button.selected{
-  background-color: #42EA08;
-	color: #fff;
-}
 
-button:focus{
-	display: none;
-}
-
-button:active{
-	opacity: .8;
-}
-
-button{
-	background-color: #fff;
-	cursor: pointer;
-}
 
 #room-name {
 	position: absolute;

@@ -97,7 +97,7 @@ $(document).ready(function() {
 
 
 
-	
+
 
 	// footage
 	// $("#footage").attr('src','./ghost/Room_1_no.png');
@@ -105,8 +105,8 @@ $(document).ready(function() {
 	// $("#cam1").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(1);
-	// 	setTimeout(function(){ 
-	// 		// console.log(room_num); 
+	// 	setTimeout(function(){
+	// 		// console.log(room_num);
 	// 		if (room_num != 1 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_1_no.png');
 	// 		}
@@ -120,7 +120,7 @@ $(document).ready(function() {
 	// $("#cam2").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(2);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 2 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_2_no.png');
 	// 		}
@@ -135,7 +135,7 @@ $(document).ready(function() {
 	// $("#cam3").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(3);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 3 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_3_no.png');
 	// 		}
@@ -149,7 +149,7 @@ $(document).ready(function() {
 	// $("#cam4").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(4);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 4 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_4_no.png');
 	// 		}
@@ -164,7 +164,7 @@ $(document).ready(function() {
 	// $("#cam5").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(5);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 5 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_5_no.png');
 	// 		}
@@ -178,7 +178,7 @@ $(document).ready(function() {
 	// $("#cam6").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(6);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 6 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_6_no.png');
 	// 		}
@@ -193,7 +193,7 @@ $(document).ready(function() {
 	// $("#cam7").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(7);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 7 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_7_no.png');
 	// 		}
@@ -207,7 +207,7 @@ $(document).ready(function() {
 	// $("#cam8").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(8);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 8 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_8_no.png');
 	// 		}
@@ -222,7 +222,7 @@ $(document).ready(function() {
 	// $("#cam9").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(9);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 9 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_9_no.png');
 	// 		}
@@ -238,7 +238,7 @@ $(document).ready(function() {
 	// $("#cam10").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(10);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 10 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_10_no.png');
 	// 		}
@@ -253,7 +253,7 @@ $(document).ready(function() {
 	// $("#cam11").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(11);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 11 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_11_no.png');
 	// 		}
@@ -267,7 +267,7 @@ $(document).ready(function() {
 	// $("#cam12").click(function() {
 	// 	getRoomNum();
 	// 	setCurrentState(12);
-	// 	setTimeout(function(){ 
+	// 	setTimeout(function(){
 	// 		if (room_num != 12 || room_num > 12) {
 	// 			$("#cam-img").attr('src','./ghost/Room_12_no.png');
 	// 		}
@@ -288,8 +288,8 @@ $(document).ready(function() {
 });
 
 //button active and non-active states
-$('.button').on('click', function(){
-    $('.button').removeClass('selected');
+$('.cam-button').on('click', function(){
+    $('.cam-button').removeClass('selected');
     $(this).addClass('selected');
 });
 
@@ -355,5 +355,3 @@ function sendAlert(room_num) {
 function button_disappear() {
 	$('#button-group').fadeOut();
 }
-
-
