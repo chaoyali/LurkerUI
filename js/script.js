@@ -3,6 +3,20 @@ var current_pressed = 0;
 
 $(document).ready(function() {
 
+	Twitch.init({clientId: 'vdxg0o02ic2jt2fkv7fblztyjnvqmf'}, function(error, status) {
+    // the sdk is now loaded
+  	if (status.authenticated) {
+		  // Already logged in, hide button
+		  $('.twitch-connect').hide();
+		}
+  });
+
+  $('.twitch-connect').click(function() {
+	  Twitch.login({
+	    scope: ['user_read', 'channel_read']
+	  });
+	})
+
 
 	$(".button-noise").click(function(){
 		if($('#footage-group').is(":visible")) {
