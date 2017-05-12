@@ -3,6 +3,7 @@ var current_pressed = 0;
 
 $(document).ready(function() {
 
+
 	$(".button-noise").click(function(){
 		if($('#footage-group').is(":visible")) {
 			$('#button-group').fadeOut(300);
@@ -78,6 +79,9 @@ $(document).ready(function() {
 		$("#obj-toilet-control .button-small").removeClass("button-purple");
 		$("#obj-toilet-control .button-small").addClass("button-gray", "button-notallowed");
 	});
+
+
+
 
 	
 
