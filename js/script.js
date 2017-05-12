@@ -106,184 +106,185 @@ $(document).ready(function() {
 
 
 	// footage
-	// $("#footage").attr('src','./ghost/Room_1_no.png');
+	$("#footage").attr('src','./ghost/Room_1_no.png');
 	$("#footage").css("background-image", "url(./ghost/Room_1_no.png)");
-	// $("#cam1").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(1);
-	// 	setTimeout(function(){
-	// 		// console.log(room_num);
-	// 		if (room_num != 1 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_1_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_1_yes.png');
-	// 		}
-	// 		changeRoonName(1);
-	// 	}, 100);
-	// });
+	$("#cam1").click(function() {
+		getRoomNum();
+		setCurrentState(1);
+		setTimeout(function(){
+			// console.log(room_num);
+			if (room_num != 1 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_1_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_1_yes.png');
+			}
+			changeRoonName(1);
+		}, 100);
+	});
 
-	// $("#cam2").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(2);
-	// 	setTimeout(function(){
-	// 		if (room_num != 2 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_2_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_2_yes.png');
-	// 		}
-	// 		changeRoonName(2);
+	$("#cam2").click(function() {
+		getRoomNum();
+		setCurrentState(2);
+		setTimeout(function(){
+			if (room_num != 2 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_2_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_2_yes.png');
+			}
+			changeRoonName(2);
 
-	// 	}, 100);
-	// });
+		}, 100);
+	});
 
-	// $("#cam3").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(3);
-	// 	setTimeout(function(){
-	// 		if (room_num != 3 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_3_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_3_yes.png');
-	// 		}
-	// 		changeRoonName(3);
-	// 	}, 100);
-	// });
+	$("#cam3").click(function() {
+		getRoomNum();
+		setCurrentState(3);
+		setTimeout(function(){
+			if (room_num != 3 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_3_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_3_yes.png');
+			}
+			changeRoonName(3);
+		}, 100);
+	});
 
-	// $("#cam4").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(4);
-	// 	setTimeout(function(){
-	// 		if (room_num != 4 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_4_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_4_yes.png');
-	// 		}
-	// 		changeRoonName(4);
+	$("#cam4").click(function() {
+		getRoomNum();
+		setCurrentState(4);
+		setTimeout(function(){
+			if (room_num != 4 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_4_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_4_yes.png');
+			}
+			changeRoonName(4);
 
-	// 	}, 100);
-	// });
+		}, 100);
+	});
 
-	// $("#cam5").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(5);
-	// 	setTimeout(function(){
-	// 		if (room_num != 5 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_5_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_5_yes.png');
-	// 		}
-	// 		changeRoonName(5);
-	// 	}, 100);
-	// });
+	$("#cam5").click(function() {
+		getRoomNum();
+		setCurrentState(5);
+		setTimeout(function(){
+			if (room_num != 5 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_5_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_5_yes.png');
+			}
+			changeRoonName(5);
+		}, 100);
+	});
 
-	// $("#cam6").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(6);
-	// 	setTimeout(function(){
-	// 		if (room_num != 6 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_6_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_6_yes.png');
-	// 		}
-	// 		changeRoonName(6);
+	$("#cam6").click(function() {
+		getRoomNum();
+		setCurrentState(6);
+		setTimeout(function(){
+			if (room_num != 6 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_6_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_6_yes.png');
+			}
+			changeRoonName(6);
 
-	// 	}, 100);
-	// });
+		}, 100);
+	});
 
-	// $("#cam7").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(7);
-	// 	setTimeout(function(){
-	// 		if (room_num != 7 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_7_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_7_yes.png');
-	// 		}
-	// 		changeRoonName(7);
-	// 	}, 100);
-	// });
+	$("#cam7").click(function() {
+		getRoomNum();
+		setCurrentState(7);
+		setTimeout(function(){
+			if (room_num != 7 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_7_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_7_yes.png');
+			}
+			changeRoonName(7);
+		}, 100);
+	});
 
-	// $("#cam8").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(8);
-	// 	setTimeout(function(){
-	// 		if (room_num != 8 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_8_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_8_yes.png');
-	// 		}
-	// 		changeRoonName(8);
+	$("#cam8").click(function() {
+		getRoomNum();
+		setCurrentState(8);
+		setTimeout(function(){
+			if (room_num != 8 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_8_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_8_yes.png');
+			}
+			changeRoonName(8);
 
-	// 	}, 100);
-	// });
+		}, 100);
+	});
 
-	// $("#cam9").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(9);
-	// 	setTimeout(function(){
-	// 		if (room_num != 9 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_9_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_9_yes.png');
-	// 		}
-	// 		changeRoonName(9);
+	$("#cam9").click(function() {
+		getRoomNum();
+		setCurrentState(9);
+		setTimeout(function(){
+			if (room_num != 9 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_9_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_9_yes.png');
+			}
+			changeRoonName(9);
 
-	// 	}, 100);
-	// });
+		}, 100);
+	});
 
 
-	// $("#cam10").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(10);
-	// 	setTimeout(function(){
-	// 		if (room_num != 10 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_10_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_10_yes.png');
-	// 		}
-	// 		changeRoonName(10);
+	$("#cam10").click(function() {
+		getRoomNum();
+		setCurrentState(10);
+		setTimeout(function(){
+			if (room_num != 10 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_10_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_10_yes.png');
+			}
+			changeRoonName(10);
 
-	// 	}, 100);
-	// });
+		}, 100);
+	});
 
-	// $("#cam11").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(11);
-	// 	setTimeout(function(){
-	// 		if (room_num != 11 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_11_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_11_yes.png');
-	// 		}
-	// 		changeRoonName(11);
+	$("#cam11").click(function() {
+		getRoomNum();
+		setCurrentState(11);
+		setTimeout(function(){
+			if (room_num != 11 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_11_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_11_yes.png');
+			}
+			changeRoonName(11);
 
-	// 	}, 100);
-	// });
-	// $("#cam12").click(function() {
-	// 	getRoomNum();
-	// 	setCurrentState(12);
-	// 	setTimeout(function(){
-	// 		if (room_num != 12 || room_num > 12) {
-	// 			$("#cam-img").attr('src','./ghost/Room_12_no.png');
-	// 		}
-	// 		else {
-	// 			$("#cam-img").attr('src','./ghost/Room_12_yes.png');
-	// 		}
-	// 		changeRoonName(12);
+		}, 100);
+	});
+	$("#cam12").click(function() {
+		getRoomNum();
+		setCurrentState(12);
+		setTimeout(function(){
+			if (room_num != 12 || room_num > 12) {
+				$("#cam-img").attr('src','./ghost/Room_12_no.png');
+			}
+			else {
+				$("#cam-img").attr('src','./ghost/Room_12_yes.png');
+			}
+			changeRoonName(12);
 
-	// 	}, 100);
-	// });
+
+		}, 100);
+	});
 
 	//button active and non-active states
 	$('.alert-button').on('click', function(){
@@ -305,10 +306,11 @@ function setCurrentState(button_num) {
 }
 
 function getRoomNum() {
-	$.get('https://lurker.000webhostapp.com/getdata.php', function(result) {
+	//$.get('https://lurker.000webhostapp.com/getdata.php', function(result) {
 		// console.log(result);
-		room_num = result;
-	});
+		//room_num = result;
+	//});
+	room_num = 1;
 }
 
 function changeRoonName(room_num) {
