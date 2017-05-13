@@ -10,12 +10,12 @@ $(document).ready(function() {
   	if (status.authenticated) {
 		  // Already logged in, hide button
 		  $('.twitch-connect').hide();
-		  
+
 		  Twitch.api({method: 'user'}, function(error, user) {
 	      user_name =user.display_name;
 	      $('#username').show();
-	      $('#username').text('user_name');
-	      alert("user_name");
+	      $('#username').text(user_name);
+	      alert(user_name);
 	    });
 		}
   });
