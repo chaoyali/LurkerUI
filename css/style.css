@@ -18,6 +18,19 @@ html {
   margin-top: 20px;
 }
 
+#title {
+	display: inline-block;
+	color: white;
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.twitch-authentication {
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+}
 
 nav {
 	/*width: 1300px;*/
