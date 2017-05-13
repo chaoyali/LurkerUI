@@ -115,10 +115,14 @@ $(document).ready(function() {
 		setTimeout(function(){
 			// console.log(room_num);
 			if (room_num != 1 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_1_no.png');
+		//		$("#footage").attr('src','./ghost/Room_1_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_1_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_1_yes.png');
+			//	$("#footage").attr('src','./ghost/Room_1_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_1_yes.png)");
+
 			}
 			changeRoonName(1);
 		}, 100);
@@ -131,10 +135,14 @@ $(document).ready(function() {
 		setTimeout(function(){
 			if (room_num != 2 || room_num > 12) {
 				// alert("1");
-				$("#footage").attr('src','./ghost/Room_2_no.png');
+				//$("#footage").attr('src','./ghost/Room_2_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_2_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_2_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_2_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_2_yes.png)");
+
 			}
 			changeRoonName(2);
 
@@ -146,10 +154,14 @@ $(document).ready(function() {
 		setCurrentState(3);
 		setTimeout(function(){
 			if (room_num != 3 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_3_no.png');
+	//			$("#footage").attr('src','./ghost/Room_3_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_3_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_3_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_3_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_3_yes.png)");
+
 			}
 			changeRoonName(3);
 		}, 100);
@@ -160,10 +172,14 @@ $(document).ready(function() {
 		setCurrentState(4);
 		setTimeout(function(){
 			if (room_num != 4 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_4_no.png');
+//				$("#footage").attr('src','./ghost/Room_4_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_4_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_4_yes.png');
+//				$("#footage").attr('src','./ghost/Room_4_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_4_yes.png)");
+
 			}
 			changeRoonName(4);
 
@@ -175,10 +191,14 @@ $(document).ready(function() {
 		setCurrentState(5);
 		setTimeout(function(){
 			if (room_num != 5 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_5_no.png');
+	//			$("#footage").attr('src','./ghost/Room_5_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_5_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_5_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_5_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_5_yes.png)");
+
 			}
 			changeRoonName(5);
 		}, 100);
@@ -189,10 +209,14 @@ $(document).ready(function() {
 		setCurrentState(6);
 		setTimeout(function(){
 			if (room_num != 6 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_6_no.png');
+	//			$("#footage").attr('src','./ghost/Room_6_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_6_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_6_yes.png');
+//				$("#footage").attr('src','./ghost/Room_6_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_6_yes.png)");
+
 			}
 			changeRoonName(6);
 
@@ -204,10 +228,14 @@ $(document).ready(function() {
 		setCurrentState(7);
 		setTimeout(function(){
 			if (room_num != 7 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_7_no.png');
+//				$("#footage").attr('src','./ghost/Room_7_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_7_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_7_yes.png');
+//				$("#footage").attr('src','./ghost/Room_7_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_7_yes.png)");
+
 			}
 			changeRoonName(7);
 		}, 100);
@@ -218,10 +246,14 @@ $(document).ready(function() {
 		setCurrentState(8);
 		setTimeout(function(){
 			if (room_num != 8 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_8_no.png');
+	//			$("#footage").attr('src','./ghost/Room_8_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_8_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_8_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_8_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_8_yes.png)");
+
 			}
 			changeRoonName(8);
 
@@ -233,10 +265,14 @@ $(document).ready(function() {
 		setCurrentState(9);
 		setTimeout(function(){
 			if (room_num != 9 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_9_no.png');
+//				$("#footage").attr('src','./ghost/Room_9_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_9_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_9_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_9_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_9_yes.png)");
+
 			}
 			changeRoonName(9);
 
@@ -249,10 +285,14 @@ $(document).ready(function() {
 		setCurrentState(10);
 		setTimeout(function(){
 			if (room_num != 10 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_10_no.png');
+	//			$("#footage").attr('src','./ghost/Room_10_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_10_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_10_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_10_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_10_yes.png)");
+
 			}
 			changeRoonName(10);
 
@@ -264,10 +304,14 @@ $(document).ready(function() {
 		setCurrentState(11);
 		setTimeout(function(){
 			if (room_num != 11 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_11_no.png');
+//				$("#footage").attr('src','./ghost/Room_11_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_11_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_11_yes.png');
+//				$("#footage").attr('src','./ghost/Room_11_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_11_yes.png)");
+
 			}
 			changeRoonName(11);
 
@@ -278,10 +322,14 @@ $(document).ready(function() {
 		setCurrentState(12);
 		setTimeout(function(){
 			if (room_num != 12 || room_num > 12) {
-				$("#footage").attr('src','./ghost/Room_12_no.png');
+	//			$("#footage").attr('src','./ghost/Room_12_no.png');
+				$("#footage").css("background-image", "url(./ghost/Room_12_no.png)");
+
 			}
 			else {
-				$("#footage").attr('src','./ghost/Room_12_yes.png');
+	//			$("#footage").attr('src','./ghost/Room_12_yes.png');
+				$("#footage").css("background-image", "url(./ghost/Room_12_yes.png)");
+
 			}
 			changeRoonName(12);
 
