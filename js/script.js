@@ -2,14 +2,15 @@ var room_num = 1;
 var current_pressed = 0;
 var user_name = "NULL";
 
-interface RoundUpdate {
-	round: number;
-	time: number;
-}
+// interface RoundUpdate {
+// 	round: number;
+// 	time: number;
+// }
 
-function PlayerInput(apg: APGsys) : void {
-	apg.setHandlers(new NetworkMessageHandler().Add<RoundUpdate>("time", p => {}));
-}
+// function PlayerInput(apg: APGsys) : void {
+// 	apg.setHandlers(new NetworkMessageHandler().Add<RoundUpdate>("time", p => {}));
+// 	console.log();
+// }
 
 $(document).ready(function() {
 	$('#username').hide();
