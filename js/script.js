@@ -21,8 +21,9 @@ $(document).ready(function() {
       user_name =user.display_name;
       $('#username').show();
       $('#username').text('user_name');
+      alert("user_name");
     });
-    alert("user_name");
+    
 	})
 
 	$('#get-name button').click(function() {
