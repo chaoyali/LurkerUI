@@ -2,10 +2,15 @@ html {
 	/*background: black;*/
 }
 
+body{
+	background-color: #17141e !important;
+}
+
 #main-container{
 	display: table;
 	margin: 0 auto;
 	margin-top: -15em;
+
 }
 
 #title-container {
@@ -109,6 +114,7 @@ nav {
 	width: 100%;
 	margin-left: 0 !important;
 	margin-right: 0 !important;
+
 }
 
 .box-style {
@@ -118,6 +124,7 @@ nav {
 	border: solid 2px #000000;
 	background-color: #17141e;
 	margin-top: -2px;
+
 }
 
 .adjust-box-left {
