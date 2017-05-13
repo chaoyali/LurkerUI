@@ -1,7 +1,9 @@
 var room_num = 1;
 var current_pressed = 0;
+var user_name = "NULL";
 
 $(document).ready(function() {
+	$('#username').hide();
 
 	Twitch.init({clientId: 'vdxg0o02ic2jt2fkv7fblztyjnvqmf'}, function(error, status) {
     // the sdk is now loaded
@@ -15,6 +17,12 @@ $(document).ready(function() {
 	  Twitch.login({
 	    scope: ['user_read', 'channel_read']
 	  });
+	  Twitch.api({method: 'user'}, function(error, user) {
+      user_name =user.display_name;
+      $('#username').show();
+      $('#username').text('user_name');
+    });
+    alert("user_name");
 	})
 
 	$('#get-name button').click(function() {
