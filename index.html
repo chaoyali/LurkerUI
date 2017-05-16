@@ -11,6 +11,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
   	<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 		
 
@@ -39,15 +40,17 @@
 
 				<div class="col-md-3 event-box box-style">
 					<div class="emergency-event">
-						<div class="emergency-light"></div>
-						<div class="event-header-text">Emergency</div>
-						<div class="event-time-text">Ends in 00:05</div>
+						<div>
+							<div class="emergency-light"></div>
+							<div class="event-header-text">Emergency</div>
+							<div class="event-time-text">Ends in 00:05</div>
+						</div>
 						<hr>
 						<div class="body-text">Player is stuck by the ghost. What to help?</div>
 
 						<div class="emergency-button-group">
 							<button class="button-noise button-purple">Make Noise</button>
-							<button class="button-noise button-purple">TBD</button>
+							<button class="button-noise button-purple" id="tbd-button">TBD</button>
 						</div>
 
 
@@ -75,6 +78,9 @@
 				    		<div id="footage-group">
 					    		<img id="overlay" src="images/overlay1.png">
 					    		<div id="footage" src>
+					    		<div id="room-name">
+										<p>Kitchen</p>
+									</div>
 					    		</div>
 				    		</div>
 				    		

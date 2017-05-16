@@ -14,6 +14,7 @@ var user_name = "NULL";
 
 $(document).ready(function() {
 	$('#username').hide();
+	$('.emergency-event').hide();
 
 	Twitch.init({clientId: 'vdxg0o02ic2jt2fkv7fblztyjnvqmf'}, function(error, status) {
     // the sdk is now loaded
@@ -44,10 +45,24 @@ $(document).ready(function() {
     });
   })
 
+	setTimeout(function(){ 
+		$('.emergency-event').show();
+
+    $('.emergency-event').addClass('animated fadeInLeft');
+	}, 20000);
+
+
+  $('#tbd-button').click(function() {
+  	$('.emergency-event').show();
+
+    $('.emergency-event').addClass('animated fadeInLeft');
+  })
+
 
 	$(".button-noise").click(function(){
 		if($('#footage-group').is(":visible")) {
-			$('#button-group').fadeOut(300);
+			// $('#button-group').fadeOut(300);
+			$('#button-group').hide();
 			$('#footage-group').fadeOut(300);
 			$("#div2").removeClass("rotateback");
 			$("#div2").addClass("rotate");

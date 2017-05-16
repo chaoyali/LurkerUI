@@ -471,6 +471,7 @@ nav {
 }
 
 .emergency-event {
+	margin: auto;
 	margin-top: 2vw;
 	width: 100%;
 	height: 200px;
@@ -526,6 +527,21 @@ nav {
 	border-radius: 100%;
 	background-color: #E03838;
 	display: inline-block;
+}
+
+#room-name {
+	position: absolute;
+	bottom: 1.5vw;
+	left: 1vw;
+	color: red;
+	width: 140px;
+  height: 30px;
+  text-align: center;
+  background: black;
+}
+
+#room-name p {
+	margin-top: 7px;
 }
 
 /**
