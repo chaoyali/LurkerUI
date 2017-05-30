@@ -35,8 +35,8 @@ $(document).ready(function() {
 	  Twitch.login({
 	    scope: ['user_read', 'channel_read']
 	  });
-	  
-    
+
+
 	})
 
 	$('#get-name button').click(function() {
@@ -45,11 +45,11 @@ $(document).ready(function() {
     });
   })
 
-	setTimeout(function(){ 
+	setTimeout(function(){
 		$('.emergency-event').show();
 
     $('.emergency-event').addClass('animated fadeInLeft');
-	}, 25000);
+	}, 10000);
 
 
   $('#tbd-button').click(function() {
