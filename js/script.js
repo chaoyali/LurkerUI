@@ -49,7 +49,7 @@ $(document).ready(function() {
 		$('.emergency-event').show();
 
     $('.emergency-event').addClass('animated fadeInLeft');
-	}, 10000);
+	}, 6000);
 
 
   $('#tbd-button').click(function() {
